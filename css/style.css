@@ -1,5 +1,6 @@
 body {
-    background-color: #c0c5ce;
+    background-color: black;
+    padding: 3rem 0;
 }
 
 .container {
@@ -15,13 +16,24 @@ body {
     padding: 4px;
 }
 
+.btn-default {
+    /* margin-top: 2rem; */
+    background-color: #00cdff;
+    border-color: transparent;
+}
+
+.btn-default:hover {
+    background-color: #ff6565;
+    border-color: transparent;
+}
+
 #elementos {
     padding: 2%;
 }
 
 #elementos .elemento {
     margin: 10px;
-    /* border: 2px solid #c0c5ce; */
+    border: 2px solid #00ff98;
     display: block;
     padding: 10px;
     text-align: left;

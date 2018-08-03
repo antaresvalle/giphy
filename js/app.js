@@ -11,7 +11,7 @@ $(document).ready(() => {
 
     const armarTemplate = (gif,url) => {
         console.log('hola img');
-        let t = `<div class='elemento'><img src='${gif}'/><a href='${url}'>Ver mas</a></div>`;
+        let t = `<div class='elemento'><img src='${gif}'/><a href='${url}'><p>Ver mas</p></a></div>`;
         console.log(t);
         return t;
     }
